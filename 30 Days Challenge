@@ -1,0 +1,223 @@
+DAY 1
+
+Install Python, VS Code, MySQL, Postman
+
+Learn Python basics: variables, data types
+
+Practice simple scripts
+
+DAY 2
+
+Conditions, loops
+
+Functions, scopes
+
+Write 10 practice problems
+
+DAY 3
+
+Lists, tuples, sets, dicts
+
+File handling (read/write logs)
+
+DAY 4
+
+Error handling
+
+Python modules, virtual environments (venv)
+
+DAY 5
+
+Introduction to MySQL
+
+Create DB, create tables, insert/select queries
+
+DAY 6
+
+Joins, GROUP BY, indexes
+
+Install and learn MySQL Workbench
+
+DAY 7
+
+Connect Python ↔ MySQL using mysql-connector
+
+Write CRUD queries in Python
+
+📅 WEEK 2 — Backend (FastAPI) + MySQL Schema + REST APIs (Days 8–14)
+
+Goal: Build the backend API layer.
+
+DAY 8
+
+Install FastAPI + Uvicorn
+
+Create simple API endpoints (GET, POST)
+
+DAY 9
+
+Create project folder structure
+
+Create /jobs API endpoint
+
+DAY 10
+
+SQLAlchemy ORM basics
+
+Create models for:
+
+users
+
+jobs
+
+job_runs
+
+DAY 11
+
+Implement CRUD for jobs
+
+API for creating job_run records
+
+DAY 12
+
+Add Pydantic models for request validation
+
+Add error handling + logging
+
+DAY 13
+
+Secure API using JWT Auth (simple version)
+
+Create login endpoint
+
+DAY 14
+
+Test all APIs with Postman
+
+Fix issues, document API routes
+
+📅 WEEK 3 — Worker System + Automation Engine (Days 15–21)
+
+Goal: Build real-time worker system + automation logic.
+
+DAY 15
+
+Install Celery + Redis/RabbitMQ
+
+Understand worker, broker, queue concepts
+
+DAY 16
+
+Write first Celery task
+
+Learn how to push a job to worker queue
+
+DAY 17
+
+Create task: update DB status → running → done
+
+Implement job-run logging
+
+DAY 18
+
+Integrate job execution with FastAPI API
+
+Trigger worker automatically when job created
+
+DAY 19
+
+Add retry mechanism
+
+Add error logging into DB
+
+DAY 20
+
+Add Selenium OR Playwright test automation
+
+Automate a sample workflow (open website, click)
+
+DAY 21
+
+Connect automation results back to MySQL
+
+Show run history in API
+
+📅 WEEK 4 — Real-Time Updates + WebSocket + Dashboard + Deployment (Days 22–30)
+
+Goal: Make it real-time, production-ready, and deployable.
+
+DAY 22
+
+Learn WebSockets (FastAPI)
+
+Create /ws/updates endpoint
+
+DAY 23
+
+Push Celery worker logs → WebSocket
+
+Live status updates for job runs
+
+DAY 24
+
+Build simple admin dashboard (HTML/JS OR React)
+
+Display job status, logs in real-time
+
+DAY 25
+
+Create scheduling engine using APScheduler
+
+Cron-based job automation
+
+DAY 26
+
+Add user roles: Admin, Operator
+
+Add permission checks in API
+
+DAY 27
+
+Dockerize complete system:
+
+FastAPI
+
+MySQL
+
+Redis
+
+Celery Worker
+
+Celery Beat
+
+Web UI
+
+DAY 28
+
+Write documentation:
+
+API
+
+DB schema
+
+Setup steps
+
+Deployment guide
+
+DAY 29
+
+Add monitoring:
+
+Prometheus
+
+Grafana
+
+Sentry (optional)
+
+DAY 30
+
+Final project testing
+
+Fix major bugs
+
+Prepare project presentation + demo video
